@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "unlocktheendbackport:block/illager_lock_side" },
+    "facing=south": { "model": "unlocktheendbackport:block/illager_lock_side", "y": 180 },
+    "facing=east": { "model": "unlocktheendbackport:block/illager_lock_side", "y": 90 },
+    "facing=west": { "model": "unlocktheendbackport:block/illager_lock_side", "y": 270 }
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:block/block",
+    "elements": [
+      {
+        "from" : [0,0,0],
+        "to": [16,13,16],
+         "faces": {
+           "down": {
+             "texture": "#down",
+             "cullface": "down"
+           },
+           "up": {
+             "texture": "#up",
+             "cullface": "up"
+           },
+           "north": {
+             "texture": "#north",
+             "cullface": "north"
+           },
+           "south": {
+             "texture": "#south",
+             "cullface": "south"
+           },
+           "east": {
+             "texture": "#east",
+             "cullface": "east"
+           },
+           "west": {
+             "texture": "#west",
+             "cullface": "west"
+           }
+         }
+        }
+    ],
+    "textures": {
+      "particle": "unlocktheendbackport:block/warden_lock_side_side",
+      "down": "unlocktheendbackport:block/warden_lock_side_bottom",
+        "up": "unlocktheendbackport:block/warden_lock_side_top",
+        "north": "unlocktheendbackport:block/warden_lock_side_side",
+        "south": "unlocktheendbackport:block/warden_lock_side_side",
+        "east": "unlocktheendbackport:block/warden_lock_side_side",
+        "west": "unlocktheendbackport:block/warden_lock_side_side"
+    }
+}

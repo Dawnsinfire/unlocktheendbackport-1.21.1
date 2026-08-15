@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "unlocktheendbackport:block/bastion_lock_middle" },
+    "facing=south": { "model": "unlocktheendbackport:block/bastion_lock_middle", "y": 180 },
+    "facing=east": { "model": "unlocktheendbackport:block/bastion_lock_middle", "y": 90 },
+    "facing=west": { "model": "unlocktheendbackport:block/bastion_lock_middle", "y": 270 }
+  }
+}

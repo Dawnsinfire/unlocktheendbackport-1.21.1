@@ -1,0 +1,21 @@
+{
+  "item.unlocktheendbackport.warden_key": "Ancient Key",
+  "item.unlocktheendbackport.bastion_key": "Gilded Key",
+  "item.unlocktheendbackport.illager_key": "Woodland Key",
+  "block.unlocktheendbackport.warden_lock_side": "Ancient Lock Side",
+  "block.unlocktheendbackport.warden_lock_middle": "Ancient Lock Middle",
+  "block.unlocktheendbackport.illager_lock_side": "Woodland Lock Side",
+  "block.unlocktheendbackport.illager_lock_middle": "Woodland Lock Middle",
+  "block.unlocktheendbackport.bastion_lock_side": "Gilded Lock Side",
+  "block.unlocktheendbackport.bastion_lock_middle": "Gilded Lock Middle",
+  "block.unlocktheendbackport.trial_lock_side": "Ominous Trial Lock Side",
+  "block.unlocktheendbackport.trial_lock_middle": "Ominous Trial Lock Middle",
+
+  "unlocktheendbackport.configuration.title": "Unlock The End Backport Configs",
+  "unlocktheendbackport.configuration.section.unlocktheendbackport.common.toml": "Unlock The End Backport Configs",
+  "unlocktheendbackport.configuration.section.unlocktheendbackport.common.toml.title": "Unlock The End Backport Configs",
+  "unlocktheendbackport.configuration.items": "Item List",
+  "unlocktheendbackport.configuration.logDirtBlock": "Log Dirt Block",
+  "unlocktheendbackport.configuration.magicNumberIntroduction": "Magic Number Text",
+  "unlocktheendbackport.configuration.magicNumber": "Magic Number"
+}

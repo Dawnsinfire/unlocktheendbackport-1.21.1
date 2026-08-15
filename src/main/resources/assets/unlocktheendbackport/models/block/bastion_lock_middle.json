@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:block/block",
+    "elements": [
+      {
+        "from" : [0,0,0],
+        "to": [16,13,16],
+         "faces": {
+           "down": {
+             "texture": "#down",
+             "cullface": "down"
+           },
+           "up": {
+             "texture": "#up",
+             "cullface": "up"
+           },
+           "north": {
+             "texture": "#north",
+             "cullface": "north"
+           },
+           "south": {
+             "texture": "#south",
+             "cullface": "south"
+           },
+           "east": {
+             "texture": "#east",
+             "cullface": "east"
+           },
+           "west": {
+             "texture": "#west",
+             "cullface": "west"
+           }
+         }
+        }
+    ],
+    "textures": {
+        "particle": "unlocktheendbackport:block/bastion_lock_middle_side",
+        "down": "unlocktheendbackport:block/bastion_lock_middle_bottom",
+        "up": "unlocktheendbackport:block/bastion_lock_middle_top",
+        "north": "unlocktheendbackport:block/bastion_lock_middle_side",
+        "south": "unlocktheendbackport:block/bastion_lock_middle_side",
+        "east": "unlocktheendbackport:block/bastion_lock_middle_side",
+        "west": "unlocktheendbackport:block/bastion_lock_middle_side"
+    }
+}
