@@ -13,7 +13,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(UnlockTheEndBackport.MODID);
-    //BLOCKS is a DeferredRegister.Blocks
 
     public static final DeferredBlock<LockBlock> WARDEN_LOCK_MIDDLE = BLOCKS.register(
             "warden_lock_middle",

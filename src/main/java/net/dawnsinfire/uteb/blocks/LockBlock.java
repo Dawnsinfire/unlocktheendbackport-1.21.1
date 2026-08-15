@@ -5,6 +5,8 @@ import net.dawnsinfire.uteb.item.ModItems;
 import net.minecraft.MethodsReturnNonnullByDefault;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -74,6 +76,8 @@ public class LockBlock extends HorizontalDirectionalBlock {
                     if (level.getBlockState(Poses.get(x)).is(ModBlocks.WARDEN_LOCK_SIDE)) {
                         level.setBlock(Poses.get(x), Blocks.END_PORTAL_FRAME.defaultBlockState()
                                 .setValue(EndPortalFrameBlock.FACING, BlockFacing), 3);
+                        level.playSound(null, pos, SoundEvents.VAULT_OPEN_SHUTTER, SoundSource.BLOCKS,  1.0f, 0.9f);
+                        level.playSound(null, pos, SoundEvents.END_PORTAL_SPAWN, SoundSource.BLOCKS, 0.1f, 2.0f);
                     }
                 }
                 level.setBlock(pos, Blocks.END_PORTAL_FRAME.defaultBlockState()
@@ -91,6 +95,8 @@ public class LockBlock extends HorizontalDirectionalBlock {
                 if (level.getBlockState(Poses.get(x)).is(ModBlocks.ILLAGER_LOCK_SIDE)) {
                     level.setBlock(Poses.get(x), Blocks.END_PORTAL_FRAME.defaultBlockState()
                             .setValue(EndPortalFrameBlock.FACING, BlockFacing), 3);
+                    level.playSound(null, pos, SoundEvents.VAULT_OPEN_SHUTTER, SoundSource.BLOCKS,  1.0f, 0.9f);
+                    level.playSound(null, pos, SoundEvents.END_PORTAL_SPAWN, SoundSource.BLOCKS, 0.1f, 2.0f);
                 }
             }
             level.setBlock(pos, Blocks.END_PORTAL_FRAME.defaultBlockState()
@@ -106,6 +112,8 @@ public class LockBlock extends HorizontalDirectionalBlock {
                 if (level.getBlockState(Poses.get(x)).is(ModBlocks.TRIAL_LOCK_SIDE)) {
                     level.setBlock(Poses.get(x), Blocks.END_PORTAL_FRAME.defaultBlockState()
                             .setValue(EndPortalFrameBlock.FACING, BlockFacing), 3);
+                    level.playSound(null, pos, SoundEvents.VAULT_OPEN_SHUTTER, SoundSource.BLOCKS,  1.0f, 0.9f);
+                    level.playSound(null, pos, SoundEvents.END_PORTAL_SPAWN, SoundSource.BLOCKS, 0.1f, 2.0f);
                 }
             }
             level.setBlock(pos, Blocks.END_PORTAL_FRAME.defaultBlockState()
@@ -121,6 +129,8 @@ public class LockBlock extends HorizontalDirectionalBlock {
                 if (level.getBlockState(Poses.get(x)).is(ModBlocks.BASTION_LOCK_SIDE)) {
                     level.setBlock(Poses.get(x), Blocks.END_PORTAL_FRAME.defaultBlockState()
                             .setValue(EndPortalFrameBlock.FACING, BlockFacing), 3);
+                    level.playSound(null, pos, SoundEvents.VAULT_OPEN_SHUTTER, SoundSource.BLOCKS,  1.0f, 0.9f);
+                    level.playSound(null, pos, SoundEvents.END_PORTAL_SPAWN, SoundSource.BLOCKS, 0.1f, 2.0f);
                 }
             }
             level.setBlock(pos, Blocks.END_PORTAL_FRAME.defaultBlockState()
