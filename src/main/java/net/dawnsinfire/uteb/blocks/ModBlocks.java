@@ -3,14 +3,12 @@ package net.dawnsinfire.uteb.blocks;
 import net.dawnsinfire.uteb.UnlockTheEndBackport;
 import net.dawnsinfire.uteb.item.ModItems;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
+
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import java.util.concurrent.locks.Lock;
 
 
 public class ModBlocks {
