@@ -1,7 +1,6 @@
 package net.dawnsinfire.uteb.item;
 
 import net.dawnsinfire.uteb.UnlockTheEndBackport;
-import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;

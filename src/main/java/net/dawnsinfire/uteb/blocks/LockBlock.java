@@ -2,6 +2,7 @@ package net.dawnsinfire.uteb.blocks;
 
 import com.mojang.serialization.MapCodec;
 import net.dawnsinfire.uteb.item.ModItems;
+import net.minecraft.MethodsReturnNonnullByDefault;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.InteractionHand;
@@ -21,8 +22,11 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
+import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.ArrayList;
 
+@MethodsReturnNonnullByDefault
+@ParametersAreNonnullByDefault
 public class LockBlock extends HorizontalDirectionalBlock {
 
     public LockBlock(Properties properties) {
